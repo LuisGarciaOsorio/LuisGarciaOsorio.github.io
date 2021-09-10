@@ -13,8 +13,8 @@ Versions are as follows: First number represents addition of new major feature t
 
 V1.0.0 8-31-2021: Website created
 v1.1.1 9-9-2021: Changelog and TODO Created
-V1.1.2 9-9-2021: Changelog version numbers explained. Completed learngitbranching.js.org tutorial. Created webpage for tracking lifts.
-
+V1.2.2 9-9-2021: Changelog version numbers explained. Completed learngitbranching.js.org tutorial. Created webpage for tracking lifts.
+V1.2.2 9-9-2021: Setup Git to edit on VS Code
 TODO: 
 For next checkpoint:
 Figure out how to add textbox that can be submitted to the website and stored.
