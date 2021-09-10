@@ -6,7 +6,7 @@ luisggo@udel.edu
 
 [Source Code](https://github.com/LuisGarciaOsorio/LuisGarciaOsorio.github.io)
 
-<a href="Tracking Lifts.html" title="Tracking"> Tracking my lifts</a>
+<a href="Tracking Lifts.html" title="Tracking Lifts"> Tracking Lifts</a>
 
 ChangeLog:
 V1.0.0 8-31-2021: Website created
