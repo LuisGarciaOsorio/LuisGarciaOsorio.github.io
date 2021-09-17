@@ -6,7 +6,10 @@ luisggo@udel.edu
 
 [Source Code](https://github.com/LuisGarciaOsorio/LuisGarciaOsorio.github.io)
 
-<a href="Tracking Lifts.html" title="Tracking Lifts"> Tracking Lifts</a>
+<a href="TrackingLifts.html" title="Tracking Lifts"> Tracking Lifts main</a>
+<a href="Time.html" title="Local Time"> Getting time from local computer</a>
+<a href="" title="Local Time"> Getting time from local computer</a>
+<a href="Time.html" title="Local Time"> Getting time from local computer</a>
 
 ChangeLog:
 Versions are as follows: First number represents addition of new major feature to the site. number 2 represents week the site has been comitted too. third number represents a major commit that week, so it can go above 9. Date of commit also included for clarification.
@@ -25,6 +28,9 @@ Longterm goals:
 Add different exercises and a scroll bar to choose exercise that is linked with the textbox mentioned before.  
 Organize information into a well sorted table.  
 Create accessible accounts.  
+
+V1.3.0 9-14-2021: Went to TA Lauren office hour to gain more insight on using git and git branching
+V1.3.1 9-10-2021: Worked on htmlbranch to add Time.html, which will take users local time and display it, ExampleCode.html is a file for examples that may be useful for my project. Created interface folder to handle buttons Swapbutton.tsx and inputs. Created athlete.tsx to handle user profiles
 
 
 
