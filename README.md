@@ -8,8 +8,8 @@ luisggo@udel.edu
 
 <a href="TrackingLifts.html" title="Tracking Lifts"> Tracking Lifts main</a>
 <a href="Time.html" title="Local Time"> Getting time from local computer</a>
-<a href="" title="Local Time"> Getting time from local computer</a>
-<a href="Time.html" title="Local Time"> Getting time from local computer</a>
+<a href="ExampleCode.html" title="Example Code"> Code to consider for future features</a>
+<a href="athlete.tsx" title="Athlete profile">Managing profiles</a>
 
 ChangeLog:
 Versions are as follows: First number represents addition of new major feature to the site. number 2 represents week the site has been comitted too. third number represents a major commit that week, so it can go above 9. Date of commit also included for clarification.
