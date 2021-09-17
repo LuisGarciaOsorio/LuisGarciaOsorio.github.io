@@ -1,4 +1,4 @@
-interface athlete:{
-    name: string
-    age: number
+let athlete = {
+    name: "Luis",
+    age: 22,
 }
