@@ -1,0 +1,58 @@
+<html>
+<header>
+
+    <title>Sources</title>
+    <link rel="stylesheet" type="text/css" href="css.css" />
+
+    <h1><a href="TrackingLifts.html"><span class='bluehenYellow'>Main Tracking Page</span></a></h1>
+    <h2> </span><a href="Exercises.html"> <span class='greyLink'>|Exercises|</span> </a>
+        <a href="Time.html"> <span class='greyLink'>|Your Time|</span></a>
+        <a href="ExternalSources.html"> <span class='greyLink'>|Sources|</span></a>
+        <a href="AboutUs.html"> <span class='greyLink'>|Site's Background|</span></a>
+
+    </h2>
+</header>
+
+
+<div>
+    <p> This page gets the date and time form the user's system using javascript. The code is exported to TrackingLifts
+        to
+        get tracked</p>
+    <h4>Today's Date is
+        <script type="text/javascript">
+            //Java script code that takes the current time form the user's computer and gets the month day and year. 1 is added to month to start february at 1. The order is set to customary u.s date
+            var currentTime = new Date()
+            var month = currentTime.getMonth() + 1
+            var day = currentTime.getDate()
+            var year = currentTime.getFullYear()
+            let date = month + "/" + day + "/" + year
+            document.write(month + "/" + day + "/" + year)
+        //export default date
+        </script>
+
+    </h4>
+
+    <h4>The time now is
+
+        <script type="text/javascript">
+            //Java script code that takes the current time from the user's computer and gets the hours and minutes. if minutes are less than 10 then a zero is added to the front of the minutes for consistency. PM/AM tags for hours
+            var currentTime = new Date()
+            var hours = currentTime.getHours()
+            var minutes = currentTime.getMinutes()
+            if (minutes < 10) {
+                minutes = "0" + minutes
+            }
+            let time = hours + ":" + minutes + " "
+            document.write(hours + ":" + minutes + " ")
+            if (hours > 11) {
+                document.write("PM")
+                time += "PM"
+            } else {
+                document.write("AM")
+                time += "AM"
+            }
+
+        //export default time
+        </script>
+    </h4>
+</div>

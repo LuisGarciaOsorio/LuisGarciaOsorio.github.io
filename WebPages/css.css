@@ -1,0 +1,55 @@
+header{
+  Background-color:#00539f;
+  color: #ffd100;
+  text-align:center;
+  padding:5px;
+  font-size: 40px;
+  }
+
+
+body{background-color:#00539f
+}
+
+div{ Background-color:#ffd100}
+
+section {
+background-color:#ffd100;
+  width:500px;
+  
+}
+.bluehenBlue {
+  color: #00539f;
+  font-size: xx-large
+}
+.bluehenYellow {
+  color: #ffd100;
+  font-size: xx-large
+}
+.greyLink{
+  color: lightgrey;
+}
+
+h1
+{rgb(100,0,0);
+font-size: 45px;} 
+h2
+{rgb(100,0,0);
+font-size: 40px;}
+
+h3,h4 {
+color:rgb(0,200,0);
+font-size: 35px;
+text-align:center;
+
+}
+
+a{text-decoration: none}
+
+p {color: DarkBlue;
+font-size: 24px;
+text-indent: 60px;
+}
+
+img {
+position:absolute;
+}
