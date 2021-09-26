@@ -24,6 +24,12 @@ V1.3.0 9-14-2021: Went to TA Lauren office hour to gain more insight on using gi
 V1.3.1 9-10-2021: Worked on htmlbranch to add Time.html, which will take users local time and display it, ExampleCode.html is a file for examples that may be useful for my project. Created interface folder to handle buttons Swapbutton.tsx and inputs. Created athlete.tsx to handle user profiles
 V1.3.2 9-16-2021: Made date and time and made it able to be exported form the Time.html file. Started looking into using react
 
+Version 2.4.1 9-23-2021
+Added css style page. Added AboutUs, Exercises, ExternalSources html pages. Attempt at coding git bash funciton. Added SiteFormat.js to facilitate coding style. 
+Made linking to each and every webpage from every other webpage and setup the general style of UD blue and yellow theme (as the website is aimed toward the UD student)
+The overall website version has shifted to V2 from V1 as it can now be navigated and has a overall theme. 
+Week 3 TODO's have been shifted to week 4, as they were the long term objectives and week 3 incorporated a lot more html and css than originally intended in order to strongly familiarize myself with the basic elements before implementation of the interactive elements.
+
 TODO:  
 For next checkpoint:  
 Figure out how to add textbox that can be submitted to the website and stored.  
@@ -34,6 +40,10 @@ Add different exercises and a scroll bar to choose exercise that is linked with 
 
 Organize information into a well sorted table / excell sheet, can be implemented with html tables and javascript functions. will work with TA on this.    
 Create accessible accounts that can be created    
+
+Week4:
+Week 3 objectives have been shifted to early week 4.
+
 
 
 
