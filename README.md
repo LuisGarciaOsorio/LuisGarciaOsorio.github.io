@@ -6,7 +6,7 @@ luisggo@udel.edu
 
 [Source Code](https://github.com/LuisGarciaOsorio/LuisGarciaOsorio.github.io)
 
-<a href="TrackingLifts.html" title="Tracking Lifts"> Tracking Lifts main</a>
+<a href="WebPages/TrackingLifts.html" title="Tracking Lifts"> Tracking Lifts main</a>
 <a href="Time.html" title="Local Time"> Getting time from local computer</a>
 <a href="ExampleCode.html" title="Example Code"> Code to consider for future features</a>
 <a href="athlete.tsx" title="Athlete profile">Managing profiles</a>
