@@ -7,9 +7,11 @@ luisggo@udel.edu
 [Source Code](https://github.com/LuisGarciaOsorio/LuisGarciaOsorio.github.io)
 
 <a href="WebPages/TrackingLifts.html" title="Tracking Lifts"> Tracking Lifts main</a>
+<<<<<<< HEAD
 <a href="WebPages/Time.html" title="Local Time"> Getting time from local computer</a>
 <a href="WebPages/ExampleCode.html" title="Example Code"> Code to consider for future features</a>
 <a href="interface/athlete.tsx" title="Athlete profile">Managing profiles</a>
+
 
 ChangeLog:
 Versions are as follows: First number represents addition of new major feature to the site. number 2 represents week the site has been comitted too. third number represents a major commit that week, so it can go above 9. Date of commit also included for clarification.

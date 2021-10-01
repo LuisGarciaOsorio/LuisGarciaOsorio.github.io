@@ -1,4 +1,44 @@
 <html>
+
+<head>
+  <!--Get time javascript from Date.js-->
+  <script type="text/javascript" src="Date.js"></script>
+  <script type="text/javascript" href="../interface/readStore.js"></script>
+
+  <script>
+
+    function addRow() {
+      //get input values for table
+      var Weight = document.getElementById('Weight').value;
+      var Reps = document.getElementById('Reps').value;
+      var Exercise = document.getElementById('Exercise').value;
+      var Date = localStorage["Date"];
+      var Time = localStorage["Time"];
+
+      //get html tab le
+      //0 is the first table
+      var table = document.getElementsByTagName('table')[0];
+      //add a new empty row to the tbale
+      //0 to make it the top
+      //table.row.length for the end
+      var newRow = table.insertRow(table.rows.length);
+
+      //add cells to the row
+      var cel1 = newRow.insertCell(0);
+      var cel2 = newRow.insertCell(1);
+      var cel3 = newRow.insertCell(2);
+      var cel4 = newRow.insertCell(3);
+      var cel5 = newRow.insertCell(4);
+
+      //add value to the cell
+      cel1.innerHTML = Date;
+      cel2.innerHTML = Time;
+      cel3.innerHTML = Exercise;
+      cel4.innerHTML = Weight;
+      cel5.innerHTML = Reps;
+    }
+  </script>
+</head>
 <header>
 
   <title>Sources</title>
@@ -11,15 +51,9 @@
     <a href="AboutUs.html"> <span class='greyLink'>|Site's Background|</span></a>
 
   </h2>
+
+  <title> Lifts Progress</title>
 </header>
-
-
-
-
-
-<title> Lifts Progress</title>
-
-
 
 <body>
   <div>
@@ -27,11 +61,37 @@
     <p>
       Get those gains<br>
       There will be more features to come.<br>
-      V1.4.1
+      V2.5.1
     </p>
   </div>
 
+  Weight: <input type="text" name="Weight" id="Weight" placeholder="How much weight per side?" /><br /><br />
+
+  Reps: <input type="text" name="Reps" id="Reps" placeholder="How many repetitions?" /><br /><br />
+  Exercise:<select name="Exercise" id="Exercise">
+    <option value="benchpressFlat">benchpressFlat</option>
+    <option value="benchpressInclined">benchpressInclined</option>
+  </select>
+
+
+
+  <button type="submit" name="Submit" onclick="addRow();">Submit</button><br /><br />
+  <table border="1">
+    <tr>
+      <th>Date</th>
+      <th>Time</th>
+      <th>Exercise</th>
+      <th>Weight</th>
+      <th>Reps</th>
+
+
+    </tr>
+
+
+  </table>
+
 
 </body>
+
 
 </html>
