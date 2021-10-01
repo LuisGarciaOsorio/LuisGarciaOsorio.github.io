@@ -32,6 +32,17 @@ Made linking to each and every webpage from every other webpage and setup the ge
 The overall website version has shifted to V2 from V1 as it can now be navigated and has a overall theme. 
 Week 3 TODO's have been shifted to week 4, as they were the long term objectives and week 3 incorporated a lot more html and css than originally intended in order to strongly familiarize myself with the basic elements before implementation of the interactive elements.
 
+Version 
+3.5.1
+Date.js: file created to make getting time its own file
+css.css: updated to include table 
+TrackingLifts.html: Added a table and input options as well as a drop down options menu. Added script function to update table with input values. Imported time from Date.js to have it updated at all times.
+athelete.tsx : added memberInfo class to store data
+readStore.js: Supposed to read through the table as input is added and store the data as a .json on the localStorage, however appears to need adjustment.
+Week 4 Todo was completed 
+
+updated final
+
 TODO:  
 For next checkpoint:  
 Figure out how to add textbox that can be submitted to the website and stored.  
@@ -45,7 +56,8 @@ Create accessible accounts that can be created
 
 Week4:
 Week 3 objectives have been shifted to early week 4.
-
+week 5:
+N/A
 
 
 
