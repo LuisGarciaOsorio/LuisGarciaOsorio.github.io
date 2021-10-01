@@ -1,0 +1,93 @@
+<html>
+
+<head>
+
+    <script>
+
+        function addRow() {
+            // get input values
+            var fname = document.getElementById('fname').value;
+            var lname = document.getElementById('lname').value;
+            var age = document.getElementById('age').value;
+
+            // get the html table
+            // 0 = the first table
+            var table = document.getElementsByTagName('table')[0];
+
+            // add new empty row to the table
+            // 0 = in the top 
+            // table.rows.length = the end
+            // table.rows.length/2+1 = the center
+            var newRow = table.insertRow(table.rows.length / 2 + 1);
+
+            // add cells to the row
+            var cel1 = newRow.insertCell(0);
+            var cel2 = newRow.insertCell(1);
+            var cel3 = newRow.insertCell(2);
+
+            // add values to the cells
+            cel1.innerHTML = fname;
+            cel2.innerHTML = lname;
+            cel3.innerHTML = age;
+        }
+
+    </script>
+
+</head>
+<header>
+
+    <title>Sources</title>
+    <link rel="stylesheet" type="text/css" href="css.css" />
+
+    <h1><a href="TrackingLifts.html"><span class='bluehenYellow'>Main Tracking Page</span></a></h1>
+    <h2> </span><a href="Exercises.html"> <span class='greyLink'>|Exercises|</span> </a>
+        <a href="Time.html"> <span class='greyLink'>|Your Time|</span></a>
+        <a href="ExternalSources.html"> <span class='greyLink'>|Sources|</span></a>
+        <a href="AboutUs.html"> <span class='greyLink'>|Site's Background|</span></a>
+
+    </h2>
+
+    <title> Lifts Progress</title>
+</header>
+
+<body>
+    <div>
+        <strong><span class='bluehenBlue'> A website for the active UD student </span></strong>
+        <p>
+            Get those gains<br>
+            There will be more features to come.<br>
+            V2.5.1
+        </p>
+    </div>
+    First Name: <input type="text" name="fname" id="fname" /><br /><br />
+    Last Name: <input type="text" name="lname" id="lname" /><br /><br />
+    Age: <input type="text" name="age" id="age" /><br /><br />
+    <button onclick="addRow();">Add Row</button><br /><br />
+
+    <table border="1">
+
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Age</th>
+        </tr>
+
+        <tr>
+            <td>AAAAAA</td>
+            <td>BBBBBB</td>
+            <td>10</td>
+        </tr>
+
+    </table>
+
+</body>
+<!-- 
+      Exercise:<select name ="Exercise" id="Exercise">
+  <option value = "benchpressFlat">benchpressFlat</option>
+  <option value = "benchpressInclined">benchpressInclined</option>
+  </select>
+    <form action="trackForm.php" method ="get">
+      </form>
+    <button type = "submit" name = "Submit" onclick="addRow();">Submit</button>-->
+
+</html>

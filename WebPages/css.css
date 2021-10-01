@@ -53,3 +53,19 @@ text-indent: 60px;
 img {
 position:absolute;
 }
+
+form{
+  width:30 px;
+
+}
+input{
+  width: 100%;
+
+}
+input, textarea{
+  outline: none;
+  border: 2px solid #000
+}
+input :focus, textarea:focus{
+border:2 px solid #ffdd;
+} 

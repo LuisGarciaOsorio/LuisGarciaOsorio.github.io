@@ -19,15 +19,10 @@
         to
         get tracked</p>
     <h4>Today's Date is
+        <!--Get time javascript from Date.js-->
+        <script type="text/javascript" src="Date.js"></script>
         <script type="text/javascript">
-            //Java script code that takes the current time form the user's computer and gets the month day and year. 1 is added to month to start february at 1. The order is set to customary u.s date
-            var currentTime = new Date()
-            var month = currentTime.getMonth() + 1
-            var day = currentTime.getDate()
-            var year = currentTime.getFullYear()
-            let date = month + "/" + day + "/" + year
-            document.write(month + "/" + day + "/" + year)
-        //export default date
+            document.write(date)
         </script>
 
     </h4>
@@ -35,24 +30,7 @@
     <h4>The time now is
 
         <script type="text/javascript">
-            //Java script code that takes the current time from the user's computer and gets the hours and minutes. if minutes are less than 10 then a zero is added to the front of the minutes for consistency. PM/AM tags for hours
-            var currentTime = new Date()
-            var hours = currentTime.getHours()
-            var minutes = currentTime.getMinutes()
-            if (minutes < 10) {
-                minutes = "0" + minutes
-            }
-            let time = hours + ":" + minutes + " "
-            document.write(hours + ":" + minutes + " ")
-            if (hours > 11) {
-                document.write("PM")
-                time += "PM"
-            } else {
-                document.write("AM")
-                time += "AM"
-            }
-
-        //export default time
+            document.write(time)
         </script>
     </h4>
 </div>

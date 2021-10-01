@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+        function addRow() {
+            //get input values for table
+            var Weight = document.getElementByID('Weight').value;
+            var Reps = document.getElementByID('Reps').value;
+            var Exercise = document.getElementByID('Exercise').value;
+            //get html tab le
+            //0 is the first table
+            var table = document.getElementyByTagName('table')[0];
+            //add a new empty row to the tbale
+            //0 to make it the top
+            //table.row.length for the end
+            var newRow = table.insertRow(table.rows.length);
+
+            //add cells to the row
+            var cel1 = newRow.insertCell(0);
+            var cel2 = newRow.insertCell(1);
+            var cel3 = newRow.insertCell(2);
+            //add value to the cell
+            cel1.innerHTML = Weight;
+            cel2.innerHTML = Reps;
+            cel3.innerHTML = Exercise;
+        }
+    </script>
+</head>
+<header>
+
+    <title>Sources</title>
+    <link rel="stylesheet" type="text/css" href="css.css" />
+
+    <h1><a href="TrackingLifts.html"><span class='bluehenYellow'>Main Tracking Page</span></a></h1>
+    <h2> </span><a href="Exercises.html"> <span class='greyLink'>|Exercises|</span> </a>
+        <a href="Time.html"> <span class='greyLink'>|Your Time|</span></a>
+        <a href="ExternalSources.html"> <span class='greyLink'>|Sources|</span></a>
+        <a href="AboutUs.html"> <span class='greyLink'>|Site's Background|</span></a>
+
+    </h2>
+
+</header>
+
+
+
+
+
+<title> Lifts Progress</title>
+
+
+
+<body>
+    <div>
+        <strong><span class='bluehenBlue'> A website for the active UD student </span></strong>
+        <p>
+            Get those gains<br>
+            There will be more features to come.<br>
+            V2.5.1
+        </p>
+    </div>
+
+    Weight:<input type="text" name="Weight" id="Weight" placeholder="How much weight per side?" /><br /><br />
+
+    Reps:<input type="text" name="Reps" id="Reps" placeholder="How many repetitions?" /><br /><br />
+    Exercise:<input type="text" name="Reps" id="Exercise" placeholder="How many repetitions?" /><br /><br />
+
+    <button onclick="addRow();">Add Row</button>
+    <table border="1">
+        <tr>
+            <th>Exercise</th>
+            <th>Weight</th>
+            <th>Reps</th>
+        </tr>
+        <tr>
+            <th>Exercise1</th>
+            <th>Weight2</th>
+            <th>Reps2</th>
+        </tr>
+
+    </table>
+
+
+</body>
+
+</html>
